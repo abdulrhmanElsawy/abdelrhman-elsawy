@@ -8,7 +8,7 @@ function SectionHeader(props){
             <section  className='section-header'>
                 <div className='container'>
                     <div className='section-header-content'>
-                        <h3> {props.title}</h3>
+                        <h4> {props.title}</h4>
 
                         <h2>  </h2>
 

@@ -46,7 +46,7 @@ import User39 from './images/rates/39.png';
 import User40 from './images/rates/40.png';
 import User41 from './images/rates/41.png';
 
-import { A11y, Pagination, Scrollbar,Navigation } from 'swiper';
+import {Navigation } from 'swiper';
 
 
 function Rates(){
@@ -72,30 +72,30 @@ function Rates(){
                         
 
                         <Swiper modules={[Navigation]}  navigation={{
-                        nextEl: '.review-swiper-button-next',
-                        prevEl: '.review-swiper-button-prev',
+                        nextEl: '.review-swiper-button-prev',
+                        prevEl: '.review-swiper-button-next',
                         }} spaceBetween={50} slidesPerView={1} onSlideChange={() => console.log('slide change')} onSwiper={(swiper) => console.log(swiper)} >
 
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User1} />
+                                            <img alt="customerRate" src={User1} />
                                             <h3> فكر و. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمة ممتازة و كفاءة عالية </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User2} />
+                                            <img alt="customerRate" src={User2} />
                                             <h3> .Mariam S </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> الله يعطيك العافيه شغل رائع انصح الجميع بالتعامل معاه ربي يوفقه </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -104,23 +104,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User3} />
+                                            <img alt="customerRate" src={User3} />
                                             <h3> .Mohamed A  </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p>  جودة ممتازة  </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User4} />
+                                            <img alt="customerRate" src={User4} />
                                             <h3> .Mohamed A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> جودة ممتازة </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -131,23 +131,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User5} />
+                                            <img alt="customerRate" src={User5} />
                                             <h3> .Mustafa E </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> تاني وتالت ومليون احب اشكرك يا بشمهندس علي زوقك واخلاقك ما شاء الله عليك وده فعلا مش اخر تعامل❤❤❤❤ </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User6} />
+                                            <img alt="customerRate" src={User6} />
                                             <h3>	.Alshahrany M  </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> الله يعطيك العافية عمل ممتاز و شكرا لك</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -157,23 +157,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User7} />
+                                            <img alt="customerRate" src={User7} />
                                             <h3> ابو ي. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شكراً لكِ و انصح بالتعامل مع الاستاذ عبد الرحمن سريع ومتعاون شكرا لك تمنياتي لك بالتوفيق الدائم</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User8} />
+                                            <img alt="customerRate" src={User8} />
                                             <h3> .Ezz A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> السرعة والانجاز والجودة والروعة تجدها عند عبدالرحمن ربي يبارك فيك </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -183,23 +183,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User9} />
+                                            <img alt="customerRate" src={User9} />
                                             <h3> .Ahmed A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ممتاز </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User10} />
+                                            <img alt="customerRate" src={User10} />
                                             <h3> .Lamya A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شغل سريع و عطانا افكار زياده للمشروع وخلصها بشكل جميل جدا وشرح لنا كل شي بالتفصيل </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -209,23 +209,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User11} />
+                                            <img alt="customerRate" src={User11} />
                                             <h3> .Mohammad J </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شكرا للمجهود و الجودة و سرعة التسليم </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User12} />
+                                            <img alt="customerRate" src={User12} />
                                             <h3> 	اسعد ب </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شكرا لك تمت الخدمة </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -236,23 +236,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User13} />
+                                            <img alt="customerRate" src={User13} />
                                             <h3> اسعد ب. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ممتاز جدا</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User14} />
+                                            <img alt="customerRate" src={User14} />
                                             <h3> .Algabry G </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شكرا لك مهندس عبد الرحمن وباذن الله تعامل بينا مستمر اسال الله أن يوفقك في جميع حياتك </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -263,23 +263,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User15} />
+                                            <img alt="customerRate" src={User15} />
                                             <h3> .Nasser M </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ممتاز جدًا، فاهم شغله ومرتب له خبرة في اكثر من مجال، وسريع وفاهم واذا عندي اي طلب جديد، بيكون أول خيار لي </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User16} />
+                                            <img alt="customerRate" src={User16} />
                                             <h3> .Tefa G </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> متمكن.. انصح بالتعامل معه </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -290,23 +290,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User17} />
+                                            <img alt="customerRate" src={User17} />
                                             <h3> .Mohammed F </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> السلام عليكم ورحمة الله ، بصراحة وبكل امانة وصدق الراجل ده شغله فوق الخيال وممتاز جدا جدا ، وسعره ممتاز كمان ، ووقت التسليم دقيق ايضا ، وانصحكم بالتعامل معاه والله </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User18} />
+                                            <img alt="customerRate" src={User18} />
                                             <h3> سهام ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> جدا مبدع و يهتم بالتفاصيل و حريص على تسليم الشغل في الوقت المتفق علية ...شكرا لك </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -317,23 +317,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User19} />
+                                            <img alt="customerRate" src={User19} />
                                             <h3> محمد ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> تم إنجاز المشروع بحترافيه عاليةمع كل التقدير والشكر. </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User20} />
+                                            <img alt="customerRate" src={User20} />
                                             <h3> فهد ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ممتاز وسريع جدا </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -343,23 +343,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User21} />
+                                            <img alt="customerRate" src={User21} />
                                             <h3> .Eyas B </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> افضل وارقى شخص بالتعامل ومتعاون جدآ جدآ ، يرجى اختيار عبد الرحمن لاستكمال اعمالكم القادمة مع الاطمئنان الكامل . لنا اعمال قادمة كثيرة ان شاءلله </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User22} />
+                                            <img alt="customerRate" src={User22} />
                                             <h3> السيد ا </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمة ممتاز والتسليم بالوقت المحدد </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -369,23 +369,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User23} />
+                                            <img alt="customerRate" src={User23} />
                                             <h3> عباس ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> on time and responsive and did a good work</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User24} />
+                                            <img alt="customerRate" src={User24} />
                                             <h3> .Ahmed A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> صبور ومتعاون </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -395,23 +395,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User25} />
+                                            <img alt="customerRate" src={User25} />
                                             <h3> .Brahim E </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شخص رائع ومحترم قام بتنفيذ المشروع كما هو مطلوب كاملًا وبكل احترافية واتقان </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User26} />
+                                            <img alt="customerRate" src={User26} />
                                             <h3> 	عبدالله ح. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> عبدالرحمن ماقصرت رجل عملي </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -421,23 +421,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User27} />
+                                            <img alt="customerRate" src={User27} />
                                             <h3> .Mader P </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شهادة تذكر لأن الناس شهداء الله في ارضه ، شهادتنا بالمهندس عبدالرحمن مجروحة وليست قدره شخص لن تقابل مثله الكثير في حياتك وستتمنى انك عرفته منذ زمن لأنه هو ما تبحث عنه يتوفر فيه كل الصفات الطيبة ولا يهتم للمادة مطلقاً كلمة الاحتراف والذوق والادب والاخلاق والقيم والمبادئ قليلة في حقه أسال الله ان يسعده وييسر امره ويفتح له ابواب السماوات والارض رجل كريم ويقدم الخدمة وكأنه هو صاحب العمل ولا يألوا جهداً في عمل كل ما تريد ليس هناك حد للإبداع والقدرات والتفهم ومهما تحدثنا عن المهندس عبدالرحمن فهذا قليل في حقه لم يقدم ما نريد بل قدم أضعافه الف شكر وفعلاًَ غربية الناس الي معلقة تحت علماً اني عميل vip</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User28} />
+                                            <img alt="customerRate" src={User28} />
                                             <h3> سطام ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمه رائعه شكرا لك </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -447,23 +447,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User29} />
+                                            <img alt="customerRate" src={User29} />
                                             <h3> .Yazan A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شخص محترم سعدت بالتعامل معك, شكراً. </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User30} />
+                                            <img alt="customerRate" src={User30} />
                                             <h3> عادل أ. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> تم إنجاز العمل المطلوب بدقة وسرعة كالمعتاد. سعداء بالتعامل معه </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -473,23 +473,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User31} />
+                                            <img alt="customerRate" src={User31} />
                                             <h3> 	انجاز ا </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p>متعاون وقمة في الاخلاق  </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User32} />
+                                            <img alt="customerRate" src={User32} />
                                             <h3>  بشار ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمة اكثر من ممتازة </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -498,23 +498,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User33} />
+                                            <img alt="customerRate" src={User33} />
                                             <h3> فهد ا </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ممتاز </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User34} />
+                                            <img alt="customerRate" src={User34} />
                                             <h3>  بشار ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمة مميزة انصح بها </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -524,23 +524,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User35} />
+                                            <img alt="customerRate" src={User35} />
                                             <h3>  بسام ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شكرا مهندس </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User36} />
+                                            <img alt="customerRate" src={User36} />
                                             <h3> .Salah Y </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> خدمه سريعه وممتازه </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -550,23 +550,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User37} />
+                                            <img alt="customerRate" src={User37} />
                                             <h3>  محمد ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> عمل جدا جميل وراقي اشكرك اخي عبدالرحمن على تعاملك الجميل والراقي </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User38} />
+                                            <img alt="customerRate" src={User38} />
                                             <h3>  .Osamah A </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ما شاء الله - الاخ عبدالرحمن قمة في الرقي بالتعامل - وسرعه بالانجاز الله يجزيك الخير - واوعدك بأعمال اخرى بإذن الله </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -575,23 +575,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User39} />
+                                            <img alt="customerRate" src={User39} />
                                             <h3>  ابو ن. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> اشكرك حبيبي </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User40} />
+                                            <img alt="customerRate" src={User40} />
                                             <h3> .Mohamad J </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> ما شاء الله عليه شب محترم جدا وخلوق وبطل بشغلة وسريع جدا جدا ومتجاوب انصح بيه الجميع والله</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>
@@ -600,23 +600,23 @@ function Rates(){
                             <SwiperSlide> 
                                 <div className='rate-content'>
                                         <div className='rate'>
-                                            <img src={User37} />
+                                            <img alt="customerRate" src={User37} />
                                             <h3> .Rooh N </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> شخص مبدع واخلاقه عاليه فخور به وتشرفت بمعرفته باذن الله مايكون التعامل الاخير </p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
 
                                         <div className='rate'>
-                                            <img src={User41} />
+                                            <img alt="customerRate" src={User41} />
                                             <h3> بلال ا. </h3>
                                             <ul>
                                                 <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
                                             </ul>
                                             <p> سريع التعامل قدرة على فهم العميل قدرة على التفكير و التخطيط يجيد العمل بكل وقت شكرا لك اخي الكريم</p>
-                                            <a target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
                                         </div>
                                     </div>
                             </SwiperSlide>

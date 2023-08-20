@@ -13,11 +13,11 @@ function Landing(){
 
                             <h1> برمجة وتصميم موقعك من الصفر حتى ظهوره في بحث جوجل </h1>
 
-                            <a href="https://wa.me/+2001006329357"> راسلنا الان  </a>
+                            <a aria-label="Phone number" href="https://wa.me/+2001006329357"> راسلنا الان  </a>
                         </div>
 
                         <div className='left'>
-                            <i class="las la-mouse-pointer"></i>
+                            <i className="las la-mouse-pointer"></i>
                             <h3> إسحب للأسفل </h3>
                         </div>
                     </div>

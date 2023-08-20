@@ -14,14 +14,14 @@ function Services(){
                         <div className='row'>
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
-                                    <i class="las la-desktop"></i>
+                                    <i className="las la-desktop"></i>
                                     <h1> تصميم وبناء موقع لشركتك  </h1>
                                     <p> 
                                         
                                     انشاء موقع ويب لشركتك يعد استثمارًا استراتيجيًا لمستقبل أعمالك. فهو يوفر فرصة لتعزيز الوجود الرقمي والتواجد على مستوى عالٍ على الإنترنت. من خلال موقع ويب احترافي ومتميز، يمكنك عرض منتجاتك وخدماتك بشكل جذاب وجعلها متاحة لجمهور أوسع.
                                     </p>
 
-                                     <a href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i class="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 
@@ -29,7 +29,7 @@ function Services(){
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
-                                    <i class="las la-wallet"></i>
+                                    <i className="las la-wallet"></i>
                                     <h1> تصميم وبناء موقع تجارة إلكترونية  </h1>
                                     <p> 
                                     
@@ -38,7 +38,7 @@ function Services(){
                                     
                                     </p>
 
-                                    <a href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i class="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@ function Services(){
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
-                                    <i class="las la-keyboard"></i>
+                                    <i className="las la-keyboard"></i>
                                     <h1>تعديل المواقع  </h1>
                                     <p> 
 
@@ -54,14 +54,14 @@ function Services(){
                                     
                                     </p>
 
-                                     <a href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i class="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
-                                    <i class="las la-pen-fancy"></i>
+                                    <i className="las la-pen-fancy"></i>
                                     <h1>  تحويل اي تصميم لديك الى موقع الكتروني   </h1>
                                     <p> 
 
@@ -69,21 +69,21 @@ function Services(){
                                     استمتع بتحويل تصميمك الفريد إلى موقع ويب رائع يلفت الأنظار ويحقق أهدافك. سأقوم بتوفير خدمة تصميم موقع ويب مبتكر يعكس هوية عملك بشكل مثالي ويضمن تجربة مستخدم استثنائية. اجذب واحتفظ بعملاء جدد من خلال تصميم فريد ومتجاوب يتكيف مع جميع الأجهزة.                                    
                                     </p>
 
-                                     <a href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i class="las la-arrow-right"></i></a>
+                                     <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 
                             
                             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                 <div className='special service'>
-                                    <i class="las la-cart-plus"></i>
+                                    <i className="las la-cart-plus"></i>
                                     <h1>  خدمات اضافية   </h1>
                                     <p> 
                                         تحصل معي على دعم فني سريع مدى الحياة لموقعك وخدمة الدعم هذه مجانية ومتاحة طوال السنة يوميا
 
                                     </p>
 
-                                     <a href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i class="las la-arrow-right"></i></a>
+                                     <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 

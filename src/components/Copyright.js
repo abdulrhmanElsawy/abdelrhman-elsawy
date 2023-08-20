@@ -8,13 +8,13 @@ function Copyright(){
             <div className='copyright'>
                 <div className='container'>
                     <div className='copyright-content'>
-                        <h2>
+                        <h5>
                             &copy; 2019 - 2023 All RIGHTS RESERVED.
-                        </h2>
-                        <h4>
+                        </h5>
+                        <h6>
                             Email:
-                            <a href='mailto:abdulrhmanm.elsawy@gmail.com'>abdulrhmanm.elsawy@gmail.com</a>
-                        </h4>
+                            <a aria-label="Email link" href='mailto:abdulrhmanm.elsawy@gmail.com'>abdulrhmanm.elsawy@gmail.com</a>
+                        </h6>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,17 @@
 import './css/latestwork.css';
 
-import work1 from './images/work/1_0.webp';
-import work2 from './images/work/2_1.webp';
-import work3 from './images/work/3_2.webp';
-import work4 from './images/work/4_3.webp';
-import work5 from './images/work/5_4.webp';
-import work6 from './images/work/6_5.webp';
+import work1 from './images/work/abdelrhmanelsawy_0.webp';
+import work2 from './images/work/eaamar_1.webp';
+import work3 from './images/work/freshenergy_2.webp';
+import work4 from './images/work/iridium_3.webp';
+import work5 from './images/work/lamar_4.webp';
+import work6 from './images/work/magicfixer_5.webp';
+import work7 from './images/work/nord_6.webp';
+import work8 from './images/work/speedunion_7.webp';
 
-import work7 from './images/work/7_6.webp';
-import work8 from './images/work/8_7.webp';
-import work9 from './images/work/9_8.webp';
-import work10 from './images/work/10_9.webp';
-import work11 from './images/work/11_10.webp';
-import iconmouse from './images/icons/mouse.gif';
+
+
+
 
 
 
@@ -36,89 +35,90 @@ function LatestWork(){
                         <div className='row'>
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                    <div className='overlay'>
-                                        <img loading="lazy" src={iconmouse} />
-                                    </div>
-                                    <img loading="lazy" src={work1} alt='workImg' />
+                                    <a rel="noreferrer" aria-label='abdelrhman elsawy' target='_blank' href="https://abdulrhmanelsawy.github.io/abdelrhman-elsawy/">
+                                        <img loading="lazy" src={work1} alt='WebDevelopment' />
+                                    </a>
                                 </div>
                             </div>
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work2} alt='workImg' />
-                                </div>
-                            </div>
+                                <a rel="noreferrer" aria-label='Eaamar El wasat' target='_blank' href="https://ewi.iq">
 
+                                    <img loading="lazy" src={work2} alt='Webdesign' />
 
-                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='work'>
-                                   
-                                    <img loading="lazy" src={work3} alt='workImg' />
+                                    </a>
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work4} alt='workImg' />
+                                <a rel="noreferrer" aria-label='EgyptFreshEnergy' target='_blank' href="https://egyptfreshenergy.com">
+
+                                    <img loading="lazy" src={work3} alt='react' />
+                                    </a>
+
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work5} alt='workImg' />
+                                <a rel="noreferrer" aria-label='Iridium' target='_blank' href="https://iridium-uae.com/">
+
+                                    <img loading="lazy" src={work4} alt='javascript' />
+
+                                    </a>
+
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work6} alt='workImg' />
+                                <a rel="noreferrer" aria-label='Lamar' target='_blank' href="https://lamar-salon.com/">
+
+                                    <img loading="lazy" src={work5} alt='FullStackwebdevelopment' />
+                                    </a>
+
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work7} alt='workImg' />
+                                <a rel="noreferrer" aria-label='Magic Fixer' target='_blank' href="https://www.magicfixer.net/">
+
+                                    <img loading="lazy" src={work6} alt='website' />
+
+                                    </a>
+
                                 </div>
                             </div>
 
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work8} alt='workImg' />
-                                </div>
-                            </div>
+                                <a rel="noreferrer" aria-label='Nord renovering' target='_blank' href="https://nordrenovering.no/">
 
+                                    <img loading="lazy" src={work7} alt='webdeveloperProject' />
+                                    </a>
 
-                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='work'>
-                                   
-                                    <img loading="lazy" src={work9} alt='workImg' />
                                 </div>
                             </div>
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                   
-                                    <img loading="lazy" src={work10} alt='workImg' />
+                                <a rel="noreferrer" aria-label='Speed Union' target='_blank' href="https://speedunion-su.com/">
+
+                                    <img loading="lazy" src={work8} alt='webdeveloperProject' />
+                                    </a>
+
                                 </div>
                             </div>
 
-                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='work'>
-                                   
-                                    <img loading="lazy" src={work11} alt='workImg' />
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

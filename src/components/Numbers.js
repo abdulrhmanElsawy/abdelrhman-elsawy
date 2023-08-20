@@ -13,7 +13,7 @@ function Numbers(){
                                     <div className='number'>
                                         <h1>
                                             112
-                                            <span> <i class="las la-plus"></i> </span>
+                                            <span> <i className="las la-plus"></i> </span>
                                         </h1>
                                         <h2> 
                                             مشاريع مكتملة
@@ -26,7 +26,7 @@ function Numbers(){
                                     <div className='number'>
                                         <h1>
                                             72
-                                            <span> <i class="las la-plus"></i> </span>
+                                            <span> <i className="las la-plus"></i> </span>
                                         </h1>
                                         <h2> 
                                             عملاء دائمين
@@ -40,7 +40,7 @@ function Numbers(){
                                     <div className='number'>
                                         <h1>
                                             4
-                                            <span> <i class="las la-plus"></i></span>
+                                            <span> <i className="las la-plus"></i></span>
                                         </h1>
                                         <h2> 
                                             سنوات الخبرة

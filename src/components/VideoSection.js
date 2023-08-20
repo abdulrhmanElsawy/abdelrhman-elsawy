@@ -26,8 +26,8 @@ function VideoSection() {
             <section id="video" className='video-section'>
                 <div className='container'>
                     <div className='video-content'>
-                        <video loading="lazy" ref={videoRef} muted src={introvid}></video>
-                        <button onClick={handleButtonClick}>
+                        <video  alt="worksamplesVideo" loading="lazy" ref={videoRef} muted src={introvid}></video>
+                        <button id="Play Video" aria-label='play video' onClick={handleButtonClick}>
                             <i className={`lab la-${isPlaying ? 'stop' : 'google-play'}`}></i>
                         </button>
                     </div>

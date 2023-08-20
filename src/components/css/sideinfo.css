@@ -39,7 +39,7 @@
 }
 
 
-.sideinfo .sideinfo-content h6{
+.sideinfo .sideinfo-content>span:not(.online){
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -79,7 +79,7 @@
 
 }
 
-.sideinfo .sideinfo-content h5{
+.sideinfo .sideinfo-content h2:not(h2:nth-child(5)){
     color: #fff;
     display: flex;
     flex-direction: row-reverse;
@@ -92,7 +92,7 @@
     margin-bottom: 5px;
 }
 
-.sideinfo .sideinfo-content h5 span{
+.sideinfo .sideinfo-content h2 span{
     font-weight: 600;
     color: #949494;
 }

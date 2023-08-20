@@ -33,7 +33,7 @@ return (
         <div className='container-fluid'>
         <div className='nav-content'>
             <div className='logo'>
-            <img src={Logo} alt='logo' />
+            <img src={Logo} alt='abdelrhmanElsawyLogo' />
             </div>
 
             <button id='open-nav'>
@@ -46,26 +46,26 @@ return (
 
             <ul>
                 <li>
-                <a href='#home'>الرئيسية</a>
+                <a aria-label='homepage link' href='#home'>الرئيسية</a>
                 </li>
 
                 <li>
-                <a href='#projects'>الأعمال</a>
+                <a aria-label='work samples link' href='#projects'>الأعمال</a>
                 </li>
 
                 <li>
-                <a href='#about'>السيرة الذاتية</a>
+                <a aria-label='cv link' href='#about'>السيرة الذاتية</a>
                 </li>
 
                 <li>
-                <a href='#services'>الخدمات</a>
+                <a aria-label='services link' href='#services'>الخدمات</a>
                 </li>
 
                 <li>
-                <a href='#rates'>التقيمات</a>
+                <a aria-label='rates link' href='#rates'>التقيمات</a>
                 </li>
             </ul>
-            <button className='download-cv' onClick={handleDownload}>
+            <button aria-label='Download Cv btn' className='download-cv' onClick={handleDownload}>
                 تنزيل السيرة الذاتية <i className='las la-download'></i>
             </button>
             </div>

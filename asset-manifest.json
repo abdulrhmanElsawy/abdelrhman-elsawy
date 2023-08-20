@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/abdelrhman-elsawy/static/css/main.629386eb.css",
+    "main.js": "/abdelrhman-elsawy/static/js/main.dfcae204.js",
+    "static/js/787.1ed0c42c.chunk.js": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js",
+    "static/media/introVid.mp4": "/abdelrhman-elsawy/static/media/introVid.4eda272607f8bde5407a.mp4",
+    "static/media/8_7.webp": "/abdelrhman-elsawy/static/media/8_7.687bfd190fd5d670d60d.webp",
+    "static/media/4_3.webp": "/abdelrhman-elsawy/static/media/4_3.14e1f4bc92e0b6e975d1.webp",
+    "static/media/5_4.webp": "/abdelrhman-elsawy/static/media/5_4.89e326708482acfb91f3.webp",
+    "static/media/3_2.webp": "/abdelrhman-elsawy/static/media/3_2.459daeb360b3de19add2.webp",
+    "static/media/10_9.webp": "/abdelrhman-elsawy/static/media/10_9.d67770b7593852209a92.webp",
+    "static/media/1_0.webp": "/abdelrhman-elsawy/static/media/1_0.382e9185286586fda60e.webp",
+    "static/media/9_8.webp": "/abdelrhman-elsawy/static/media/9_8.a04be104fea4dd3d4cdc.webp",
+    "static/media/7_6.webp": "/abdelrhman-elsawy/static/media/7_6.467fc89c627e84e0e006.webp",
+    "static/media/2_1.webp": "/abdelrhman-elsawy/static/media/2_1.1b27869dc401dbafe61b.webp",
+    "static/media/mouse.gif": "/abdelrhman-elsawy/static/media/mouse.1f06e4bd7617fe9009af.gif",
+    "static/media/11_10.webp": "/abdelrhman-elsawy/static/media/11_10.5b074267f4ac7517e82f.webp",
+    "static/media/6_5.webp": "/abdelrhman-elsawy/static/media/6_5.6809c7f8043c847bf1b8.webp",
+    "static/media/landing.jpg": "/abdelrhman-elsawy/static/media/landing.3f1912f855370912b7c9.jpg",
+    "static/media/logo.svg": "/abdelrhman-elsawy/static/media/logo.23939b5a86e277912550681729e1c5b7.svg",
+    "static/media/me.png": "/abdelrhman-elsawy/static/media/me.a6cbba8266ddce69930f.png",
+    "static/media/1.png": "/abdelrhman-elsawy/static/media/1.7f812f54a405702091c8.png",
+    "static/media/15.png": "/abdelrhman-elsawy/static/media/15.d732b02998b6924ea784.png",
+    "index.html": "/abdelrhman-elsawy/index.html",
+    "main.629386eb.css.map": "/abdelrhman-elsawy/static/css/main.629386eb.css.map",
+    "main.dfcae204.js.map": "/abdelrhman-elsawy/static/js/main.dfcae204.js.map",
+    "787.1ed0c42c.chunk.js.map": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629386eb.css",
+    "static/js/main.dfcae204.js"
+  ]
+}

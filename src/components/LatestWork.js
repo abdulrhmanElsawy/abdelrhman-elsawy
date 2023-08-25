@@ -8,6 +8,9 @@ import work5 from './images/work/lamar_4.webp';
 import work6 from './images/work/magicfixer_5.webp';
 import work7 from './images/work/nord_6.webp';
 import work8 from './images/work/speedunion_7.webp';
+import work9 from './images/work/zaman_0.webp';
+import work10 from './images/work/magicdxb_1.webp';
+
 
 
 
@@ -33,6 +36,32 @@ function LatestWork(){
                 <div className='container'>
                     <div className='latestwork-content'>
                         <div className='row'>
+                            
+                            
+                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Zaman Apartments' target='_blank' href="zamanapartments.com">
+
+                                    <img loading="lazy" src={work9} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                            
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='MagixDxb' target='_blank' href="https://www.magicdxb.com/">
+
+                                    <img loading="lazy" src={work10} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
                                     <a rel="noreferrer" aria-label='abdelrhman elsawy' target='_blank' href="https://abdulrhmanelsawy.github.io/abdelrhman-elsawy/">
@@ -117,6 +146,7 @@ function LatestWork(){
 
                                 </div>
                             </div>
+
 
 
                         </div>

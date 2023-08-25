@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/abdelrhman-elsawy/static/css/main.ac0c225f.css",
-    "main.js": "/abdelrhman-elsawy/static/js/main.f33d301d.js",
+    "main.js": "/abdelrhman-elsawy/static/js/main.96991747.js",
     "static/js/787.1ed0c42c.chunk.js": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js",
     "static/media/introVid.mp4": "/abdelrhman-elsawy/static/media/introVid.4eda272607f8bde5407a.mp4",
     "static/media/landing.jpg": "/abdelrhman-elsawy/static/media/landing.3f1912f855370912b7c9.jpg",
+    "static/media/magicdxb_1.webp": "/abdelrhman-elsawy/static/media/magicdxb_1.634e49cc0a461a7fd24e.webp",
     "static/media/eaamar_1.webp": "/abdelrhman-elsawy/static/media/eaamar_1.99c46f5bbda6d1c39ce5.webp",
     "static/media/logo.svg": "/abdelrhman-elsawy/static/media/logo.23939b5a86e277912550681729e1c5b7.svg",
     "static/media/nord_6.webp": "/abdelrhman-elsawy/static/media/nord_6.5f78dcf13e0b6e5d658a.webp",
     "static/media/speedunion_7.webp": "/abdelrhman-elsawy/static/media/speedunion_7.df274c9a5c2bb5a3c4e0.webp",
+    "static/media/zaman_0.webp": "/abdelrhman-elsawy/static/media/zaman_0.3287c515bf0f27d5dbd2.webp",
     "static/media/magicfixer_5.webp": "/abdelrhman-elsawy/static/media/magicfixer_5.713b8f5949c086a9faad.webp",
     "static/media/freshenergy_2.webp": "/abdelrhman-elsawy/static/media/freshenergy_2.c11ae2b6f482a4dfd446.webp",
     "static/media/abdelrhmanelsawy_0.webp": "/abdelrhman-elsawy/static/media/abdelrhmanelsawy_0.5b1b1134877e33d6b47e.webp",
@@ -19,11 +21,11 @@
     "static/media/15.png": "/abdelrhman-elsawy/static/media/15.d732b02998b6924ea784.png",
     "index.html": "/abdelrhman-elsawy/index.html",
     "main.ac0c225f.css.map": "/abdelrhman-elsawy/static/css/main.ac0c225f.css.map",
-    "main.f33d301d.js.map": "/abdelrhman-elsawy/static/js/main.f33d301d.js.map",
+    "main.96991747.js.map": "/abdelrhman-elsawy/static/js/main.96991747.js.map",
     "787.1ed0c42c.chunk.js.map": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac0c225f.css",
-    "static/js/main.f33d301d.js"
+    "static/js/main.96991747.js"
   ]
 }

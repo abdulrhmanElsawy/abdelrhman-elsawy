@@ -40,7 +40,7 @@ function LatestWork(){
                             
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                <a rel="noreferrer" aria-label='Zaman Apartments' target='_blank' href="zamanapartments.com">
+                                <a rel="noreferrer" aria-label='Zaman Apartments' target='_blank' href="https://zamanapartments.com">
 
                                     <img loading="lazy" src={work9} alt='webdeveloperProject' />
                                     </a>

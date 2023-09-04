@@ -23,7 +23,7 @@ useEffect(() => {
 
 const handleDownload = () => {
     // Replace the URL with the actual URL of the PDF file
-    const fileUrl = 'https://abdulrhmanelsawy.github.io/abdelrhman-elsawy/docs/AbdelrhmanElsawyCV.pdf';
+    const fileUrl = 'https://abdulrhmanelsawy.github.io/abdelrhman-elsawy/docs/Abdelrhman-Elsawy-CV.pdf';
     window.open(fileUrl, '_blank');
 };
 

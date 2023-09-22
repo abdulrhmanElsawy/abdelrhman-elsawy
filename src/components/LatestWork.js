@@ -45,7 +45,7 @@ function LatestWork(){
                                 <div className='work'>
                                 <a rel="noreferrer" aria-label='Fikr W Ebda3' target='_blank' href="http://fikrebda3.com/">
 
-                                    <img loading="lazy" src={work10} alt='webdeveloperProject' />
+                                    <img loading="lazy" src={work11} alt='webdeveloperProject' />
                                     </a>
 
                                 </div>
@@ -57,7 +57,7 @@ function LatestWork(){
                                 <div className='work'>
                                 <a rel="noreferrer" aria-label='Monarch' target='_blank' href="https://monarch-sa.com/">
 
-                                    <img loading="lazy" src={work11} alt='webdeveloperProject' />
+                                    <img loading="lazy" src={work12} alt='webdeveloperProject' />
                                     </a>
 
                                 </div>
@@ -69,7 +69,7 @@ function LatestWork(){
                                 <div className='work'>
                                 <a rel="noreferrer" aria-label='Aurora' target='_blank' href="http://aurora-ksa.com/">
 
-                                    <img loading="lazy" src={work12} alt='webdeveloperProject' />
+                                    <img loading="lazy" src={work13} alt='webdeveloperProject' />
                                     </a>
 
                                 </div>
@@ -81,7 +81,7 @@ function LatestWork(){
                                 <div className='work'>
                                 <a rel="noreferrer" aria-label='creative supplies' target='_blank' href="https://creativesuppliess.com/">
 
-                                    <img loading="lazy" src={work13} alt='webdeveloperProject' />
+                                    <img loading="lazy" src={work14} alt='webdeveloperProject' />
                                     </a>
 
                                 </div>

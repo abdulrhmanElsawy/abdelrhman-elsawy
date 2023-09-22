@@ -10,7 +10,10 @@ import work7 from './images/work/nord_6.webp';
 import work8 from './images/work/speedunion_7.webp';
 import work9 from './images/work/zaman_0.webp';
 import work10 from './images/work/magicdxb_1.webp';
-
+import work11 from './images/work/fikr.webp';
+import work12 from './images/work/monarch.webp';
+import work13 from './images/work/aurora.webp';
+import work14 from './images/work/creativity.webp';
 
 
 
@@ -36,6 +39,56 @@ function LatestWork(){
                 <div className='container'>
                     <div className='latestwork-content'>
                         <div className='row'>
+
+
+                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Fikr W Ebda3' target='_blank' href="http://fikrebda3.com/">
+
+                                    <img loading="lazy" src={work10} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Monarch' target='_blank' href="https://monarch-sa.com/">
+
+                                    <img loading="lazy" src={work11} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Aurora' target='_blank' href="http://aurora-ksa.com/">
+
+                                    <img loading="lazy" src={work12} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='creative supplies' target='_blank' href="https://creativesuppliess.com/">
+
+                                    <img loading="lazy" src={work13} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
                             
                             
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>

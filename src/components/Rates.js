@@ -46,6 +46,20 @@ import User39 from './images/rates/39.png';
 import User40 from './images/rates/40.png';
 import User41 from './images/rates/41.png';
 
+import User44 from './images/rates/44.png';
+import User45 from './images/rates/45.png';
+import User46 from './images/rates/46.png';
+import User47 from './images/rates/47.png';
+import User48 from './images/rates/48.png';
+import User49 from './images/rates/49.png';
+import User50 from './images/rates/50.png';
+import User51 from './images/rates/51.png';
+import User52 from './images/rates/52.png';
+import User53 from './images/rates/53.png';
+
+
+
+
 import {Navigation } from 'swiper';
 
 
@@ -65,7 +79,7 @@ function Rates(){
                         <div className='arrows'>
 
                             <i className="las la-angle-left review-swiper-button-next"></i>
-                                <h2> 43 </h2>
+                                <h2> 53 </h2>
                             <i className="las la-angle-right review-swiper-button-prev"></i>
 
                         </div>
@@ -75,6 +89,156 @@ function Rates(){
                         nextEl: '.review-swiper-button-prev',
                         prevEl: '.review-swiper-button-next',
                         }} spaceBetween={50} slidesPerView={1} onSlideChange={() => console.log('slide change')} onSwiper={(swiper) => console.log(swiper)} >
+
+
+
+                        <SwiperSlide> 
+                                <div className='rate-content'>
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User52} />
+                                            <h3> Mariam S </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> الله يعطيك العافيه جودة وتعامل ممتازين .. ربي يسعدك وباذن الله مو اخر تعامل </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User53} />
+                                            <h3> .Mohammed M </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p>عمل ممتاز ومتعاون جداً وسيتم التعامل معه مرة أخرى بكل تأكيد </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+                                    </div>
+                            </SwiperSlide>
+
+
+
+                            <SwiperSlide> 
+                                <div className='rate-content'>
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User47} />
+                                            <h3> يزن خ. </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> منعاون جدا </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User48} />
+                                            <h3> .Yoseff A </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> عمل جميل تواصل مستمر واخلاق راقية شكراً  </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+                                    </div>
+                            </SwiperSlide>
+
+
+
+
+
+                            <SwiperSlide> 
+                                <div className='rate-content'>
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User46} />
+                                            <h3> Iridium D </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> التعامل مع الاستاذ عبدالرحمن مريح جدا و عملي و والنتائج جدا رائعة بارك الله بحضرتك استاذ عبدالرحمن ووفقك لما تحبه وترضاه الحقيقة كانت اول تجربة لي في موثع خمسات ولن تكون الاخيرة بفضل تعامل الاستاذ عبدالرحمن </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User49} />
+                                            <h3> .Belal Khaled A </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> رائع جدا وملتزم بالوقت راح اتعامل معه دائما ان شاء الله </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+                                    </div>
+                            </SwiperSlide>
+
+
+
+
+                            <SwiperSlide> 
+                                <div className='rate-content'>
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User45} />
+                                            <h3> سعد ر. </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> انسان بروفشنال </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User50} />
+                                            <h3> .Sami F </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> جميل جداا </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+                                    </div>
+                            </SwiperSlide>
+
+
+
+
+                        <SwiperSlide> 
+                                <div className='rate-content'>
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User44} />
+                                            <h3> .Sara M </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> شخص صريح وصادق في عمله وشغله رائع ومثل ما طلبت والعمل معه مريح جدا وسلس </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+
+                                        <div className='rate'>
+                                            <img alt="customerRate" src={User51} />
+                                            <h3> .Xz L  </h3>
+                                            <ul>
+                                                <li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li><li><i className="fa-solid fa-star"></i></li>
+                                            </ul>
+                                            <p> خدمة جيدة مع تواصل سهل والبائع استجاب لكل تعديلاتنا والمنتج النهائي كان ممتاز </p>
+                                            <a rel="noreferrer" aria-label="rate Link" target='_blank' href="https://khamsat.com/programming/custom-website-development/2264247-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9%D9%83-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%81%D8%B1-%D8%AD%D8%AA%D9%89-%D8%B8%D9%87%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A8%D8%AD%D8%AB-%D8%AC%D9%88%D8%AC%D9%84"> مشاهدة التقييم </a>
+                                        </div>
+                                    </div>
+                            </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                             <SwiperSlide> 
                                 <div className='rate-content'>

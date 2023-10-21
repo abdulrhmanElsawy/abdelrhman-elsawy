@@ -79,7 +79,7 @@
 
 }
 
-.sideinfo .sideinfo-content h2:not(h2:nth-child(5)){
+.sideinfo .sideinfo-content h2:not(h2:nth-child(4)){
     color: #fff;
     display: flex;
     flex-direction: row-reverse;

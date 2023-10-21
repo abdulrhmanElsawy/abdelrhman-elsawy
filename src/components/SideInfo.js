@@ -8,7 +8,6 @@ function SideInfo(){
             <section id="home" className='sideinfo'>
                 <div className='sideinfo-content'>
                     <img alt='abdelrhmanelsawyImg' src={me}/>
-                    <span className='online'></span>
                     <h1> عبدالرحمن الصاوي </h1>
                     <h1 className='hide'> Abdelrhman Elsawy </h1>
 

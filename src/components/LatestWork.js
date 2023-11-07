@@ -14,9 +14,9 @@ import work11 from './images/work/fikr.webp';
 import work12 from './images/work/monarch.webp';
 import work13 from './images/work/aurora.webp';
 import work14 from './images/work/creativity.webp';
-import work15 from './images/work/ucccsa.png';
-import work16 from './images/work/cmtpfx.png';
-import work17 from './images/work/proeagles.png';
+import work15 from './images/work/ucccsa.webp';
+import work16 from './images/work/cmtpfx.webp';
+import work17 from './images/work/proeagles.webp';
 import work18 from './images/work/wadi.webp';
 
 

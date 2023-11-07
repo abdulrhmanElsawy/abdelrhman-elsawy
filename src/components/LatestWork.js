@@ -14,6 +14,11 @@ import work11 from './images/work/fikr.webp';
 import work12 from './images/work/monarch.webp';
 import work13 from './images/work/aurora.webp';
 import work14 from './images/work/creativity.webp';
+import work15 from './images/work/ucccsa.png';
+import work16 from './images/work/cmtpfx.png';
+import work17 from './images/work/proeagles.png';
+import work18 from './images/work/wadi.webp';
+
 
 
 
@@ -39,6 +44,27 @@ function LatestWork(){
                 <div className='container'>
                     <div className='latestwork-content'>
                         <div className='row'>
+
+
+                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='UCCCSA' target='_blank' href="https://ucccsa.com/">
+
+                                    <img loading="lazy" src={work15} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='cmtpfx' target='_blank' href="https://cmtpfx.com/">
+
+                                    <img loading="lazy" src={work16} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
 
 
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
@@ -117,11 +143,36 @@ function LatestWork(){
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>
-                                    <a rel="noreferrer" aria-label='abdelrhman elsawy' target='_blank' href="https://abdulrhmanelsawy.github.io/abdelrhman-elsawy/">
-                                        <img loading="lazy" src={work1} alt='WebDevelopment' />
+                                    <a rel="noreferrer" aria-label='Pro Eaggles' target='_blank' href="https://proeaglescompany.com/">
+                                        <img loading="lazy" src={work17} alt='WebDevelopment' />
                                     </a>
                                 </div>
                             </div>
+
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Wadi El Flaah' target='_blank' href="https://wadialfalah.info/">
+
+                                    <img loading="lazy" src={work18} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='work'>
+                                <a rel="noreferrer" aria-label='Monarch' target='_blank' href="https://monarch-sa.com/">
+
+                                    <img loading="lazy" src={work12} alt='webdeveloperProject' />
+                                    </a>
+
+                                </div>
+                            </div>
+
+
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='work'>

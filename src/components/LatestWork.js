@@ -67,15 +67,7 @@ function LatestWork(){
                             </div>
 
 
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='work'>
-                                <a rel="noreferrer" aria-label='Fikr W Ebda3' target='_blank' href="http://fikrebda3.com/">
 
-                                    <img loading="lazy" src={work11} alt='webdeveloperProject' />
-                                    </a>
-
-                                </div>
-                            </div>
 
 
 

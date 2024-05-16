@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/abdelrhman-elsawy/static/css/main.9f433cf8.css",
-    "main.js": "/abdelrhman-elsawy/static/js/main.135096da.js",
+    "main.js": "/abdelrhman-elsawy/static/js/main.05f02e86.js",
     "static/js/787.1ed0c42c.chunk.js": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js",
     "static/media/introVid.mp4": "/abdelrhman-elsawy/static/media/introVid.4eda272607f8bde5407a.mp4",
     "static/media/landing.jpg": "/abdelrhman-elsawy/static/media/landing.3f1912f855370912b7c9.jpg",
+    "static/media/me.png": "/abdelrhman-elsawy/static/media/me.0d2a25dffa7b56b9cb1f.png",
     "static/media/magicdxb_1.webp": "/abdelrhman-elsawy/static/media/magicdxb_1.634e49cc0a461a7fd24e.webp",
     "static/media/ucccsa.webp": "/abdelrhman-elsawy/static/media/ucccsa.0f2ab564fb95c7c299de.webp",
     "static/media/eaamar_1.webp": "/abdelrhman-elsawy/static/media/eaamar_1.99c46f5bbda6d1c39ce5.webp",
@@ -20,7 +21,6 @@
     "static/media/freshenergy_2.webp": "/abdelrhman-elsawy/static/media/freshenergy_2.c11ae2b6f482a4dfd446.webp",
     "static/media/abdelrhmanelsawy_0.webp": "/abdelrhman-elsawy/static/media/abdelrhmanelsawy_0.5b1b1134877e33d6b47e.webp",
     "static/media/lamar_4.webp": "/abdelrhman-elsawy/static/media/lamar_4.dc0365fd470334eb8a20.webp",
-    "static/media/me.png": "/abdelrhman-elsawy/static/media/me.a6cbba8266ddce69930f.png",
     "static/media/fikr.webp": "/abdelrhman-elsawy/static/media/fikr.3a683883d79ae0e56dd0.webp",
     "static/media/iridium_3.webp": "/abdelrhman-elsawy/static/media/iridium_3.1392c9dd51bf4b47b135.webp",
     "static/media/aurora.webp": "/abdelrhman-elsawy/static/media/aurora.aa2160234886fbe6c7a3.webp",
@@ -31,11 +31,11 @@
     "static/media/15.png": "/abdelrhman-elsawy/static/media/15.d732b02998b6924ea784.png",
     "index.html": "/abdelrhman-elsawy/index.html",
     "main.9f433cf8.css.map": "/abdelrhman-elsawy/static/css/main.9f433cf8.css.map",
-    "main.135096da.js.map": "/abdelrhman-elsawy/static/js/main.135096da.js.map",
+    "main.05f02e86.js.map": "/abdelrhman-elsawy/static/js/main.05f02e86.js.map",
     "787.1ed0c42c.chunk.js.map": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f433cf8.css",
-    "static/js/main.135096da.js"
+    "static/js/main.05f02e86.js"
   ]
 }

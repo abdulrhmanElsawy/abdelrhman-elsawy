@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abdelrhman-elsawy/static/css/main.9f433cf8.css",
+    "main.css": "/abdelrhman-elsawy/static/css/main.9f5b9057.css",
     "main.js": "/abdelrhman-elsawy/static/js/main.05f02e86.js",
     "static/js/787.1ed0c42c.chunk.js": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js",
     "static/media/introVid.mp4": "/abdelrhman-elsawy/static/media/introVid.4eda272607f8bde5407a.mp4",
@@ -30,12 +30,12 @@
     "static/media/1.png": "/abdelrhman-elsawy/static/media/1.7f812f54a405702091c8.png",
     "static/media/15.png": "/abdelrhman-elsawy/static/media/15.d732b02998b6924ea784.png",
     "index.html": "/abdelrhman-elsawy/index.html",
-    "main.9f433cf8.css.map": "/abdelrhman-elsawy/static/css/main.9f433cf8.css.map",
+    "main.9f5b9057.css.map": "/abdelrhman-elsawy/static/css/main.9f5b9057.css.map",
     "main.05f02e86.js.map": "/abdelrhman-elsawy/static/js/main.05f02e86.js.map",
     "787.1ed0c42c.chunk.js.map": "/abdelrhman-elsawy/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f433cf8.css",
+    "static/css/main.9f5b9057.css",
     "static/js/main.05f02e86.js"
   ]
 }

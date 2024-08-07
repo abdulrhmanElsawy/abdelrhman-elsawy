@@ -101,3 +101,33 @@
         width: 100%;
     }
 }
+
+
+.landing.en .landing-content .text {
+    direction: rtl;
+}
+
+.landing.en .landing-content .text .right h1 {
+    text-align: left;
+}
+
+.landing.en .landing-content .text .right h2 {
+    direction: ltr;
+}
+
+.story.en .story-content {
+    text-align: left;
+    direction: ltr;
+}
+.services.en .services-content .service h1 {
+    text-align: left;
+}
+
+.services.en .services-content .service p {
+    text-align: left;
+}
+
+.services.en .services-content .service {
+    direction: ltr;
+    text-align: left;
+}

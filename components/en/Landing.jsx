@@ -3,7 +3,7 @@ import '@styles/landing.css';
 function Landing(){
     return(
         <>
-        <section className='landing'>
+        <section className='en landing'>
             <div className='container'>
                 <div className='landing-content'>
                     <div className='text'>

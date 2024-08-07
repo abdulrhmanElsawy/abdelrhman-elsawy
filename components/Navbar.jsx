@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import '@styles/navbar.css';
 import Image from 'next/image';
 import $ from 'jquery';
+import Link from 'next/link';
 
 function Navbar() {
 useEffect(() => {
@@ -65,6 +66,11 @@ return (
                 <li>
                 <a aria-label='rates link' href='#rates'>التقيمات</a>
                 </li>
+
+                <li>
+                                    <Link aria-label='arabic page link' href='/en'>English</Link>
+                                </li>
+
             </ul>
             <button aria-label='Download Cv btn' className='download-cv' onClick={handleDownload}>
                 تنزيل السيرة الذاتية <i className='las la-download'></i>

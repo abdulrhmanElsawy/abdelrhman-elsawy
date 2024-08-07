@@ -5,7 +5,7 @@ function Copyright(){
     return(
 
         <>
-            <div className='copyright'>
+            <div className='en copyright'>
                 <div className='container'>
                     <div className='copyright-content'>
                         <h5>

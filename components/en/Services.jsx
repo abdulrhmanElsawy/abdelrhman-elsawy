@@ -1,93 +1,74 @@
 import '@styles/services.css';
 import SectionHeader from './SectionHeader';
 
-
-function Services(){
-    return(
+function Services() {
+    return (
         <>
-                    <SectionHeader title="الخدمات" number="03" />
+            <SectionHeader title="Services" number="03" />
 
-
-            <section id="services" className='services'>
+            <section id="services" className='en services'>
                 <div className='container'>
                     <div className='services-content'>
                         <div className='row'>
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
                                     <i className="las la-desktop"></i>
-                                    <h1> تصميم وبناء موقع لشركتك  </h1>
+                                    <h1> Design and Build a Website for Your Company </h1>
                                     <p> 
-                                        
-                                    انشاء موقع ويب لشركتك يعد استثمارًا استراتيجيًا لمستقبل أعمالك. فهو يوفر فرصة لتعزيز الوجود الرقمي والتواجد على مستوى عالٍ على الإنترنت. من خلال موقع ويب احترافي ومتميز، يمكنك عرض منتجاتك وخدماتك بشكل جذاب وجعلها متاحة لجمهور أوسع.
+                                        Creating a website for your company is a strategic investment in the future of your business. It provides an opportunity to enhance your digital presence and maintain a high-level online presence. With a professional and distinctive website, you can showcase your products and services attractively and make them available to a wider audience.
                                     </p>
 
-                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> Order Now <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
-
-
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
                                     <i className="las la-wallet"></i>
-                                    <h1> تصميم وبناء موقع تجارة إلكترونية  </h1>
+                                    <h1> Design and Build an E-commerce Website </h1>
                                     <p> 
-                                    
-                                        انشاء موقع تجارة إلكترونية لشركتك هو الخطوة التالية لتحقيق النجاح في عصر الرقمية. يتيح لك الموقع الالكتروني التجارة الإلكترونية الوصول إلى عملاء جدد وزيادة قاعدة العملاء الحالية.
-                                    
-                                    
+                                        Creating an e-commerce website for your company is the next step to achieving success in the digital age. An e-commerce website allows you to reach new customers and expand your current customer base.
                                     </p>
 
-                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> Order Now <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
-
-
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
                                     <i className="las la-keyboard"></i>
-                                    <h1>تعديل المواقع  </h1>
+                                    <h1> Website Modifications </h1>
                                     <p> 
-
-                                            يمكنني تعديل الموقع الخاص بك وجعل ظهوره افضل في بحث جوجل من خلال عمل سي اي او افضل لموقعك بناءا على خبرتي في التعامل مع بحث جوجل
-                                    
+                                        I can modify your website and improve its appearance in Google search results by providing better SEO based on my experience with Google search.
                                     </p>
 
-                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> Order Now <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
-
 
                             <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='service'>
                                     <i className="las la-pen-fancy"></i>
-                                    <h1>  تحويل اي تصميم لديك الى موقع الكتروني   </h1>
+                                    <h1> Convert Any Design You Have into a Website </h1>
                                     <p> 
-
-
-                                    استمتع بتحويل تصميمك الفريد إلى موقع ويب رائع يلفت الأنظار ويحقق أهدافك. سأقوم بتوفير خدمة تصميم موقع ويب مبتكر يعكس هوية عملك بشكل مثالي ويضمن تجربة مستخدم استثنائية. اجذب واحتفظ بعملاء جدد من خلال تصميم فريد ومتجاوب يتكيف مع جميع الأجهزة.                                    
+                                        Enjoy transforming your unique design into an outstanding website that attracts attention and achieves your goals. I will provide a creative website design service that perfectly reflects your business identity and ensures an exceptional user experience. Attract and retain new customers with a unique and responsive design that adapts to all devices.
                                     </p>
 
-                                     <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> Order Now <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
 
-                            
                             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                 <div className='special service'>
                                     <i className="las la-cart-plus"></i>
-                                    <h1>  خدمات اضافية   </h1>
+                                    <h1> Additional Services </h1>
                                     <p> 
-                                        تحصل معي على دعم فني سريع مدى الحياة لموقعك وخدمة الدعم هذه مجانية ومتاحة طوال السنة يوميا
-
+                                        With me, you get fast technical support for your website for life. This support service is free and available daily throughout the year.
                                     </p>
 
-                                     <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> أطلب الان <i className="las la-arrow-right"></i></a>
+                                    <a rel="noreferrer" aria-label="Whatsapp link" href='https://wa.me/+2001006329357' target='_blank'> Order Now <i className="las la-arrow-right"></i></a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>

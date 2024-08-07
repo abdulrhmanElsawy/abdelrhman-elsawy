@@ -6,8 +6,9 @@ const nextConfig = {
     assetPrefix: isProd ? '/abdelrhman-elsawy' : '',
     images: {
         domains: ['lh3.googleusercontent.com'],
+        unoptimized: true 
     },
-    output: "export",
+    // output: "export",
     trailingSlash: true,
     skipTrailingSlashRedirect: true,
     reactStrictMode: true,

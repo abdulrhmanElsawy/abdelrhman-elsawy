@@ -2,8 +2,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: isProd ? '/repo-test' : '',
-    assetPrefix: isProd ? '/repo-test' : '',
+    basePath: isProd ? '/abdelrhman-elsawy' : '',
+    assetPrefix: isProd ? '/abdelrhman-elsawy' : '',
     images: {
         domains: ['lh3.googleusercontent.com'],
     },

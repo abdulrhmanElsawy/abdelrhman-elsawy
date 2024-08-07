@@ -7,7 +7,7 @@ function SideInfo() {
         <>
             <section id="home" className='en sideinfo'>
                 <div className='sideinfo-content'>
-                    <Image src="./images/me.png" alt='Abdelrahman Elsawy' width={120} height={120} />
+                    <Image src="../images/me.png" alt='Abdelrahman Elsawy' width={120} height={120} />
 
                     <h1> Abdelrahman Elsawy </h1>
                     <h1 className='hide'> Abdelrhman Elsawy </h1>

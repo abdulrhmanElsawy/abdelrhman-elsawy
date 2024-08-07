@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react';
 import '@styles/globals.css';
-import Navbar from '@components/Navbar';
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -88,7 +87,6 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         <div className="main">
           <div className="gradient" />
         </div>
-        <Navbar />
         <main className="app">{children}</main>
       </body>
     </html>

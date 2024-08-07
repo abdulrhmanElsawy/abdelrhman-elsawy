@@ -7,6 +7,7 @@ import Services from '@components/Services';
 import Rates from '@components/Rates';
 import LatestWork from '@components/LatestWork';
 import Copyright from '@components/Copyright';
+import Navbar from '@components/Navbar';
 
 
 
@@ -17,6 +18,8 @@ import  "bootstrap/dist/css/bootstrap.min.css"
 const Home = () => {
     return (
         <>
+                <Navbar />
+
             <Landing />
             <SideInfo />
             <Numbers />

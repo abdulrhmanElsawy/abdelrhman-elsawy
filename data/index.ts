@@ -75,7 +75,7 @@ export const navItems = [
         title: "موقع الكورسات التعليمية",
         des: "قمت بتطوير منصة تمكن المستخدمين من التسجيل كمدرسين أو طلاب. تمكن المدرسين من إنشاء وإدارة الكورسات والدروس، مع وجود لوحة تحكم للإشراف.",
         img: "./project1.webp",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
         link: "https://meedcourses.com",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
         title: "موقع كورسات وتدوينات التداول",
         des: "قدمت منصة تعليمية متكاملة مع موارد تعليمية وتدوينات خبراء لتعزيز معرفة المستخدم بالتداول.",
         img: "./project2.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "/stream.svg", "/c.svg"],
         link: "https://cmtpfx.com",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
         title: "نسخة مشابهة لـ Figma",
         des: "طورت نسخة مطابقة من Figma، مع إعادة تطبيق الميزات الرئيسية لهذه الأداة الشهيرة. يُظهر هذا المشروع قدرات متقدمة في التعاون في الوقت الفعلي.",
         img: "./project3.webp",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "/c.svg"],
         link: "https://abdulrhmanelsawy.github.io/figma-demo/",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
         title: "شركة OT (ot.com.sa) لتكنولوجيا المعلومات",
         des: "أنشأت منصة شاملة عبر الإنترنت لـ OT، لتعزيز رؤية خدماتها وتسهيل الوصول إلى عروضها المتنوعة في مجال تكنولوجيا المعلومات.",
         img: "./project4.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://ot.com.sa",
     },
     {
@@ -107,7 +107,7 @@ export const navItems = [
         title: "شركة مايستر (meister-me.com) (شركة بناء)",
         des: "قدمت منصة سهلة الاستخدام لـ Meister، لتعزيز رؤية المنتجات وتسهيل التفاعل مع العملاء في قطاع مواد البناء.",
         img: "./project5.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://meister-me.com",
     },
     {
@@ -115,7 +115,7 @@ export const navItems = [
         title: "شركة UCCC (ucccsa.com) (شركة بناء)",
         des: "أنشأت حضوراً مهنياً عبر الإنترنت لـ UCCC، لتعزيز رؤيتها وإظهار خبراتها الواسعة وقدراتها في المشاريع.",
         img: "./project7.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://ucccsa.com",
     },
     {
@@ -123,7 +123,7 @@ export const navItems = [
         title: "شركة أورورا (aurora-ksa.com) (شركة إعلامية)",
         des: "طورت موقعًا إلكترونيًا لأورورا، وهي شركة إعلامية رائدة في السعودية.",
         img: "./project8.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://aurora-ksa.com",
     },
     {
@@ -131,7 +131,7 @@ export const navItems = [
         title: "زمن أبارتمنتس (zamanapartments.com)",
         des: "طورت موقعًا إلكترونيًا لشركة زمن أبارتمنتس، وهي شركة تأجير شقق في لندن.",
         img: "./project9.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://zamanapartments.com",
     },
     {
@@ -139,7 +139,7 @@ export const navItems = [
         title: "ماجيك فيكسر (magicfixer.net)",
         des: "طورت موقعًا إلكترونيًا لشركة ماجيك فيكسر، وهي شركة متخصصة في أدوات البناء وخدمات الصيانة.",
         img: "./project10.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://magicfixer.net/",
     },
     {
@@ -147,7 +147,7 @@ export const navItems = [
         title: "صالون مونارك (monarch-sa.com)",
         des: "طورت موقعًا إلكترونيًا لصالون مونارك، الذي يقدم مجموعة من خدمات الصالون والجمال.",
         img: "./project11.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://www.monarch-sa.com/",
     },
     {
@@ -155,7 +155,7 @@ export const navItems = [
         title: "ماجيك DXB (magicdxb.com)",
         des: "طورت موقعًا إلكترونيًا لشركة ماجيك DXB، التي تقدم مجموعة من الخدمات والحلول في دبي.",
         img: "./project12.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://magicdxb.com/",
     },
     {
@@ -163,7 +163,7 @@ export const navItems = [
         title: "نورد رينوفيرينج (nordrenovering.com)",
         des: "طورت موقعًا إلكترونيًا لشركة نورد رينوفيرينج الألمانية المتخصصة في الطلاء المنزلي، والبناء، والخدمات المنزلية المختلفة.",
         img: "./project13.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://nordrenovering.com/",
     },
     {
@@ -171,7 +171,7 @@ export const navItems = [
         title: "شركة إيجيبت فريش إنرجي (egyptfreshenergy.com)",
         des: "طورت موقعًا إلكترونيًا لشركة إيجيبت فريش إنرجي، وهي شركة مصرية متخصصة في تصدير الخضروات والفواكه عالميًا.",
         img: "./project14.webp",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
         link: "https://egyptfreshenergy.com/",
     },
 ];
@@ -306,28 +306,28 @@ const reviewslink = "https://khamsat.com/user/abdulrhmanelsawy/reviews";
       title: "تطوير تطبيقات ومواقع ويب",
       desc: "عملت على تطوير تطبيقات ومواقع ويب باستخدام تقنيات مثل React و Node.js مع التركيز على تحسين تجربة المستخدم.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "./exp1.svg",
     },
     {
       id: 2,
       title: "تطوير حلول إدارة المخزون",
       desc: "قدمت حلولًا تقنية لإدارة المخزون للشركات، مما ساعد على تحسين الكفاءة وتقليل التكاليف.",
       className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
+      thumbnail: "./exp2.svg",
     },
     {
       id: 3,
       title: "تطوير منصات تعليمية",
       desc: "شاركت في تصميم وتطوير منصات تعليمية تفاعلية تدعم التعليم عن بعد.",
       className: "md:col-span-2",
-      thumbnail: "/exp3.svg",
+      thumbnail: "./exp3.svg",
     },
     {
       id: 4,
       title: "تطوير مواقع لشركات الإعلام والبناء",
       desc: "عملت على تطوير مواقع إلكترونية لشركات تعمل في مجالات الإعلام والبناء لتعزيز تواجدها الرقمي.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "./exp4.svg",
     },
   ];
   

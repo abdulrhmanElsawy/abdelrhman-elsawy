@@ -88,7 +88,7 @@ export default function RootLayout({
         )
       )}
     </head>
-    <body>
+    <body className={cairo.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

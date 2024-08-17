@@ -21,7 +21,7 @@ export const metadata = {
       type: 'website',
       images: [
       {
-          url: '/images/me.png',
+          url: './images/me.png',
       },
       ],
   },
@@ -29,12 +29,12 @@ export const metadata = {
       card: 'summary_large_image',
       title: 'Abdelrhman Elsawy - مطوّر ويب مستقل Full Stack Freelancer',
       description: 'أنا عبد الرحمن الصاوي، مطوّر ويب مستقل Full Stack. اتصل بي لاحتياجات تطوير الويب الخاصة بك. I am Abdelrhman Elsawy, a Freelancer Full Stack Web Developer. Contact me for your web development needs.',
-      image: '/images/me.png',
+      image: './images/me.png',
   },
   link: [
       {
       rel: 'icon',
-      href: '/images/logo.svg',
+      href: './images/logo.svg',
       },
       {
       rel: 'stylesheet',

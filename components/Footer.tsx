@@ -8,7 +8,7 @@ return (
     <footer className="relative w-full  pb-10 mb-[100px] md:mb-5 overflow-hidden" id="contact">
     <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
-        src="/footer-grid.svg"
+        src="./footer-grid.svg"
         alt="grid"
         className="w-full h-full opacity-50 "
         />

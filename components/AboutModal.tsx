@@ -35,7 +35,7 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
             onClick={onClose}
           >
             <div
-              className="absolute top-1/2 w-full max-w-4xl h-[85vh] md:h-[80vh] rounded-2xl overflow-hidden"
+              className="relative w-full max-w-4xl h-[85vh] md:h-[80vh] rounded-2xl overflow-hidden"
               onClick={(e) => e.stopPropagation()}
               style={{
                 backdropFilter: "blur(16px) saturate(180%)",
@@ -146,7 +146,7 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
                         </p>
 
                         <p>
-                          I've worked with companies and teams across Egypt and Saudi Arabia, delivering solutions in industries such as:
+                          I&apos;ve worked with companies and teams across Egypt and Saudi Arabia, delivering solutions in industries such as:
                         </p>
 
                         <ul className="list-disc list-inside space-y-2 ml-4 text-purple/80">
@@ -187,7 +187,7 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
 
                         <div className="mt-8 p-6 rounded-lg border border-purple/30 bg-purple/5">
                           <p className="text-white font-semibold mb-2">
-                            If you're looking for a developer who:
+                            If you&apos;re looking for a developer who:
                           </p>
                           <ul className="list-disc list-inside space-y-2 ml-4">
                             <li className="text-white-200">Understands business goals before technical details</li>
@@ -195,7 +195,7 @@ const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
                             <li className="text-white-200">Pays attention to both details and the bigger picture</li>
                           </ul>
                           <p className="mt-4 text-white font-semibold">
-                            Then I'm <span className="text-purple">Abdulrahman El-Sawy</span>, and I'd be excited to help you build something meaningful and lasting.
+                            Then I&apos;m <span className="text-purple">Abdulrahman El-Sawy</span>, and I&apos;d be excited to help you build something meaningful and lasting.
                           </p>
                         </div>
                       </>

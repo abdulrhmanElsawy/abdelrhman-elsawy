@@ -67,8 +67,34 @@
 }
 
 
-*{
-  direction:rtl;
+/* Apply direction based on html dir attribute */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+}
+
+/* Force LTR for English - override any RTL defaults */
+html[dir="ltr"],
+html[dir="ltr"] *,
+body.lang-en,
+body.lang-en * {
+  direction: ltr !important;
+}
+
+/* Individual elements with dir attribute override */
+[dir="ltr"] {
+  direction: ltr !important;
+}
+
+[dir="ltr"] * {
+  direction: ltr !important;
+}
+
+[dir="rtl"] {
+  direction: rtl !important;
 }
 @layer base {
   * {
@@ -86,4 +112,43 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+  
+  /* Text alignment based on direction */
+  html[dir="ltr"] .heading {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .heading {
+    text-align: center;
+  }
+}
+
+
+body{
+  color: #fff !important;
+}
+
+#projects img.z-10{
+  clip-path: inset(0 0 49px 0);
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Custom scrollbar for About Modal */
+.about-modal-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.about-modal-scroll::-webkit-scrollbar-track {
+  background: rgba(17, 25, 40, 0.5);
+  border-radius: 10px;
+}
+
+.about-modal-scroll::-webkit-scrollbar-thumb {
+  background: #CBACF9;
+  border-radius: 10px;
+}
+
+.about-modal-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
 }

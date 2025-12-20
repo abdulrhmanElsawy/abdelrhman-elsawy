@@ -28,6 +28,12 @@ const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
 };
 
+const handleClick = () => {
+    if (href) {
+        window.open(href, '_blank', 'noopener,noreferrer');
+    }
+};
+
 return (
     <div
     className={cn(
@@ -36,6 +42,7 @@ return (
     )}
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
+    onClick={handleClick}
     >
     <div
         style={{
@@ -73,7 +80,9 @@ return (
         <a
             href={href}
             target={"_blank"}
-            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "
+            rel="noopener noreferrer"
+            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 pointer-events-auto"
+            onClick={(e) => e.stopPropagation()}
         >
             <span className="relative z-20 text-white text-xs font-bold inline-block py-0.5">
             {title}

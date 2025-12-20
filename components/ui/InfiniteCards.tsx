@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const InfiniteMovingCards = ({
 items,
@@ -21,6 +22,7 @@ speed?: "fast" | "normal" | "slow";
 pauseOnHover?: boolean;
 className?: string;
 }) => {
+const { t } = useLanguage();
 const containerRef = React.useRef<HTMLDivElement>(null);
 const scrollerRef = React.useRef<HTMLUListElement>(null);
 
@@ -127,7 +129,7 @@ return (
                 </span>
                 {/* change text color */}
                 <a href={item.title} target="_blank"  className="flex flex-center items-center gap-5 text-sm leading-[1.6] text-white-200 font-normal">
-                    مشاهدة التقييم على خمسات
+                    {t.testimonials.viewReview}
                     <FaArrowAltCircleRight />
                 </a>
                 </span>

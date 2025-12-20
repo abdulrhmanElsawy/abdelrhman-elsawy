@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
-const cairo = Cairo({ subsets: ["arabic"] });
+const cairo = Cairo({ subsets: ["arabic", "latin"] });
 
 
 
@@ -66,7 +67,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar">
+    <html lang="ar" dir="rtl">
     <head>
       <meta charSet={metadata.charset} />
       <meta name="viewport" content={metadata.viewport} />
@@ -89,14 +90,16 @@ export default function RootLayout({
       )}
     </head>
     <body className={cairo.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-        {children}
-        </ThemeProvider>
+        <LanguageProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+          {children}
+          </ThemeProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

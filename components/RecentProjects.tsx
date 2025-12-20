@@ -1,18 +1,25 @@
+"use client";
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/Pin'
 import { FaLocationArrow } from 'react-icons/fa'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 const RecentProjects = () => {
+    const { t, language } = useLanguage();
     return (
         <div className='py-20' id="projects">
-            <h1 className='heading'>
-            مجموعة مختارة من{' '}
-            <span className='text-purple'> أحدث المشاريع </span>
+            <h1 className='heading' dir={language === 'en' ? 'ltr' : undefined}>
+            {t.projects.title}{' '}
+            <span className='text-purple'> {t.projects.titleHighlight} </span>
             </h1>
 
             <div className='flex w-full flex-wrap items-between justify-between p-4 gap-x-24 gap-y-8 mt-10'>
-                {projects.map(({id,title,des,img,iconLists,link})=>(
+                {projects.map(({id,titleEn,titleAr,desEn,desAr,img,iconLists,link})=>{
+                    const title = language === 'en' ? titleEn : titleAr;
+                    const des = language === 'en' ? desEn : desAr;
+                    
+                    return (
                     <div className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-full' key={id}>
                         <PinContainer title={link} href={link}>
                             <div className='relative flex items-center justify-center sm:w-96 lg:w-full overflow-hidden sm:h-[40vh] h-[23vh]  mb-10'>
@@ -21,8 +28,10 @@ const RecentProjects = () => {
                                 </div>
                                 <img src={img} alt={title} className='z-10 absolute bottom-0' />
                             </div>
-                            <h1 className='font-bold lg:text-xl md:text-xl text-base line-clamp-1'> {title}</h1>
-                            <p className='lg:text-sm pt-3 lg:font-normal font-light text-sm line-clamp-2'> {des} </p>
+                            <div dir={language === 'en' ? 'ltr' : undefined}>
+                                <h1 className='font-bold lg:text-xl md:text-xl text-base line-clamp-1'> {title}</h1>
+                                <p className='lg:text-sm pt-3 lg:font-normal font-light text-sm line-clamp-2'> {des} </p>
+                            </div>
                             <div className='gap-5 flex flex-wrap items-center justify-between mt-7 mb-3'>
                                 <div className='flex items-center'>
                                     {iconLists.map((icon,index)=>(
@@ -32,16 +41,17 @@ const RecentProjects = () => {
                                     ))}
                                 </div>
 
-                                <div className='flex justify-center items-center'>
+                                <div className='flex justify-center items-center' dir={language === 'en' ? 'ltr' : undefined}>
                                     <p className='flex lg:text-sm md:text-xs text-sm text-purple'>
-                                    تصفح الموقع مباشرة
+                                    {t.projects.visitSite}
                                     </p>
-                                    <FaLocationArrow className='ms-3' color='#CBACF9' />
+                                    <FaLocationArrow className={language === 'en' ? 'ml-3' : 'ms-3'} color='#CBACF9' />
                                 </div>
                             </div>
                         </PinContainer>
                     </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     )

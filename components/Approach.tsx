@@ -1,22 +1,24 @@
+"use client";
 import React from "react";
 import { AnimatePresence, AnimatePresenceProps, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Approach = () => {
+const { t, language } = useLanguage();
 return (
     <section className="w-full py-20">
-    <h1 className="heading">
-        منهجيتي في
-        <span className="text-purple"> العمل</span>
+    <h1 className="heading" dir={language === 'en' ? 'ltr' : undefined}>
+        {t.approach.title}
+        <span className="text-purple"> {t.approach.titleHighlight}</span>
     </h1>
     <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
     <Card
-        title="التخطيط والاستراتيجية"
-        icon={<AceternityIcon order="المرحلة 1" />}
-        des="سنتعاون لوضع أهداف موقعك الإلكتروني، وتحديد الجمهور المستهدف،
-        وتوضيح الوظائف الأساسية. سنتناول أمورًا مثل هيكل الموقع،
-        التنقل، ومتطلبات المحتوى."
+        title={t.approach.step1.title}
+        icon={<AceternityIcon order={t.approach.step1.order} />}
+        des={t.approach.step1.description}
+        language={language}
         >
         <CanvasRevealEffect
                 animationSpeed={5.1}
@@ -24,11 +26,10 @@ return (
             />
         </Card>
         <Card
-        title="التطوير وتحديث التقدم"
-        icon={<AceternityIcon order="المرحلة 2" />}
-        des="بمجرد الاتفاق على الخطة، أبدأ تشغيل قائمة التشغيل الخاصة بي وأغمر
-        نفسي في البرمجة. من الرسوم الأولية إلى الكود النهائي، سأبقيك على
-        اطلاع بكل خطوة."
+        title={t.approach.step2.title}
+        icon={<AceternityIcon order={t.approach.step2.order} />}
+        des={t.approach.step2.description}
+        language={language}
         >
         <CanvasRevealEffect
         animationSpeed={3}
@@ -41,10 +42,10 @@ return (
         />
         </Card>
         <Card
-        title="التطوير والإطلاق"
-        icon={<AceternityIcon order="المرحلة 3" />}
-        des="هنا يحدث السحر! بناءً على التصميم المعتمد، سأترجم كل شيء إلى كود
-        وظيفي، وأبني موقعك الإلكتروني من الألف إلى الياء."
+        title={t.approach.step3.title}
+        icon={<AceternityIcon order={t.approach.step3.order} />}
+        des={t.approach.step3.description}
+        language={language}
         >
         <CanvasRevealEffect
         animationSpeed={3}
@@ -65,11 +66,13 @@ icon,
 children,
 // add this one for the desc
 des,
+language,
 }: {
 title: string;
 icon: React.ReactNode;
 children?: React.ReactNode;
 des: string;
+language: 'en' | 'ar';
 }) => {
 const [hovered, setHovered] = React.useState(false);
 const AnimatePresenceComponent = AnimatePresence as React.FC<React.PropsWithChildren<AnimatePresenceProps>>;
@@ -118,6 +121,7 @@ return (
         className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
         relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
         group-hover/canvas-card:-translate-y-2 transition duration-200"
+        dir={language === 'en' ? 'ltr' : undefined}
         >
         {title}
         </h2>
@@ -127,6 +131,7 @@ return (
         relative z-10 mt-4 group-hover/canvas-card:text-white text-center
         group-hover/canvas-card:-translate-y-2 transition duration-200"
         style={{ color: "#E4ECFF" }}
+        dir={language === 'en' ? 'ltr' : undefined}
         >
         {des}
         </p>

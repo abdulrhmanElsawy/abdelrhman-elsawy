@@ -10,10 +10,13 @@ import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Home() {
+  const { language } = useLanguage();
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 overflow-clip px-5">
+    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 overflow-clip px-5" dir={language === 'en' ? 'ltr' : 'rtl'}>
       <div className="max-w-7xl w-full">
         <FloatingNav 
           className=""
@@ -26,6 +29,7 @@ export default function Home() {
         <Experience />
         <Approach />
         <Footer />
+        <WhatsAppFloat />
       </div>
     </main>
   );

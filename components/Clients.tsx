@@ -4,13 +4,15 @@ import React from "react";
 
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Clients = () => {
+const { t, language } = useLanguage();
 return (
     <section id="testimonials" className="py-20">
-    <h1 className="heading">
-        آراء إيجابية من
-        <span className="text-purple"> عملاء سعيدين</span>
+    <h1 className="heading" dir={language === 'en' ? 'ltr' : undefined}>
+        {t.testimonials.title || 'Positive Feedback from'}
+        <span className="text-purple"> {t.testimonials.titleHighlight || 'Happy Clients'}</span>
     </h1>
 
     <div style={{direction: "ltr"}} className="flex flex-col items-center max-lg:mt-10">
